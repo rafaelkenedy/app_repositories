@@ -15,6 +15,7 @@
         app:title="@string/app_name" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRepos"
         android:layout_width="match_parent"
         tools:listitem="@layout/item_repo"
         tools:itemCount="5"
